@@ -1,0 +1,204 @@
+/* Global Styles */
+body {
+    font-family: Times, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("background.avif");
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+#header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Menu Styles */
+nav#menu ul.meny {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+
+nav#menu ul.meny li.menyelement {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav#menu ul.meny li.menyelement a {
+    text-decoration: none;
+    color: white;
+}
+nav#menu ul.meny li.menyelement a:hover {
+    background-color: #555; /* Change background color */
+    color: #fff; /* Change text color */
+    transform: scale(1.05); /* Slightly enlarge the menu item */
+
+}
+
+
+/* Content Styles */
+#content .content-block {
+    background: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#content h2 {
+    color: #fff;
+    margin-top: 0;
+}
+
+/* Footer Styles */
+#footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #container {
+        width: 95%;
+    }
+
+    nav#menu ul.meny li.menyelement {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .shake {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+  #egg-counter {
+    text-align: center;
+    bottom: 10px; 
+    right: 10px; 
+    background-color: white; 
+    padding: 5px; 
+    border-radius: 5px;
+    /* Additional styling as needed */
+}
+#paragraph-content, #random-content {
+    flex-basis: 45%; /* Adjust based on your preference */
+    margin: 5px;
+    color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc; /* Optional: adds a border around each section */
+    border-radius: 5px; /* Optional: rounds the corners of the border */
+}
+
+#paragraph-content button, #random-content button {
+    background-color: #007bff; /* A blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#paragraph-content button:hover, #random-content button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#paragraph {
+    text-align: left;
+}
+
+#random-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    text-align: left;
+}
+
+#random-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee; /* Adds a bottom border to each list item */
+}
+
+
+
+#game-area {
+    width: 600px;
+    height: 200px;
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto ;
+    background-color: #fff;
+}
+
+#character, #obstacle {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    position: absolute;
+    bottom: 0;
+}
+
+#character {
+    left: 50px;
+}
+
+#obstacle {
+    right: 20px;
+    animation: moveObstacle 2s infinite linear;
+}
+#paragraph {
+    display: none;
+}
+
+
+@keyframes moveObstacle {
+    0% { right: -20px; }
+    100% { right: 600px; }
+}
+
+#character.jump {
+    animation: jump 0.5s ease;
+}
+
+@keyframes jump {
+    0%, 100% { bottom: 0; }
+    50% { bottom: 100px; } /* Adjust the height of the jump as needed */
+}
+
+#jump-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    /* Add additional styling as needed */
+}

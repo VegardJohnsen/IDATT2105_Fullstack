@@ -1,0 +1,11 @@
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/service/UserService.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/config/WebConfig.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/model/User.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/repository/CalculationRepository.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/repository/UserRepository.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/controller/CalculatorController.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/controller/UserController.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/service/CalculatorService.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/model/Calculation.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/Application.java
+/Users/vegardjohnsen/Documents/NTNU/Vaar23/Fullstack/oving4/rest-calculator/src/main/java/edu/ntnu/idatt2105/config/CorsConfig.java

@@ -1,0 +1,11 @@
+edu/ntnu/idatt2105/config/WebConfig.class
+edu/ntnu/idatt2105/controller/UserController.class
+edu/ntnu/idatt2105/config/CorsConfig.class
+edu/ntnu/idatt2105/Application.class
+edu/ntnu/idatt2105/model/User.class
+edu/ntnu/idatt2105/repository/UserRepository.class
+edu/ntnu/idatt2105/repository/CalculationRepository.class
+edu/ntnu/idatt2105/model/Calculation.class
+edu/ntnu/idatt2105/service/UserService.class
+edu/ntnu/idatt2105/controller/CalculatorController.class
+edu/ntnu/idatt2105/service/CalculatorService.class
